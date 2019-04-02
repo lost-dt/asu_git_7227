@@ -795,7 +795,7 @@ Text = {
         var action = outline[i++];
 
         switch(action) {
-          case 'm':
+          case 'move':
             ctx.moveTo(outline[i++], outline[i++]);
             break;
           case 'l':
